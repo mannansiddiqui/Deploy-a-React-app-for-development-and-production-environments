@@ -1,12 +1,12 @@
-# Create react app and deploy it for development and production environment on the EC2 instance
+# Deploy a React app for development and production environments
 
 #### Description:
 
-- Launch an EC2 server.
-- Install the dependencies to run the react app.
-- Create a react app and deploy it on the server for development and production environment.
+- Launch an EC2 instance.
+- Install the dependencies required to run the React app.
+- Create a React app and deploy it on the server for both the development and production environments.
 
-#### Step-1: Launch an EC2 server
+#### Step-1: Launch an EC2 instance.
 
 Firstly, log in to the AWS management console.
 
@@ -48,7 +48,7 @@ Now, take the public IP from the EC2 dashboard and use it to login inside the in
 
 Finally, it will be logged in successfully if everything is configured correctly.
 
-#### Step-2: Install the dependencies to run the react app.
+#### Step-2: Install the dependencies required to run the React app.
 
 First, we need to install nodejs. npm comes with nodejs bundled. For nodejs, use below commands:
 ```
@@ -73,7 +73,7 @@ As you can see npm version is 8.13.2 but latest version is 8.14.0 so we have to 
 
 ![19](https://user-images.githubusercontent.com/74168188/179751261-b2900fad-593b-4e56-98d1-29ab356ac6f3.png)
 
-#### Step-3: Create a react app and deploy it on the server for development and production environment.
+#### Step-3: Create a React app and deploy it on the server for both the development and production environments.
 
 Now, time to create a react app
 
