@@ -1,4 +1,4 @@
-# Deploy a React app for development and production environments
+# Create a React app and Deploy it for development and production environment on the EC2 instance
 
 #### Description:
 
